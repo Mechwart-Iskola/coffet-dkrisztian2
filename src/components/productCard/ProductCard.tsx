@@ -15,7 +15,7 @@ const ProductCard = (props: ProductType) => {
         <div className='products__data'>
             <h4 className='products__name'>{props.name}</h4>
             <h5 className='products__price'>${props.price}</h5>
-            <button className='products__button'><img src='/img/favicon.png'></img></button>
+            <button className='product__button'><i className="ri-shopping-cart-line"></i></button>
         </div>
 
     </div>
